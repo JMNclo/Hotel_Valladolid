@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- IGNORAR -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Hotel Valladolid</title>
+	<link rel="shortcut icon" href="./img/icono-title.jpg">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- ESTE ES LO MÁS IMPOORTANTEEEEEEEE :V -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- CODIGO PARA BAJAR A LAS SECCIONES DESEADAS -->
+	<script>
+		smoothScroll.init({
+			selector: '[data-scroll]',
+			selectorHeader: null,
+			speed: 500,
+			easing: 'easeInOutCubic',
+			offset: 0,
+			callback: function ( anchor, toggle ) {}
+		});
+	</script>
+    <!-- FUNTE DE ICONOS -->
+    <script src="https://kit.fontawesome.com/1960fd81b2.js" crossorigin="anonymous"></script>
+    <!-- LINK PARA JAVASCRIPT -->
+   <script src="app.js"></script>
+</head>
+<body>
+    <!-- MENU: 'HOTEL VALLADOLID' Y LAS SECCIONES 'PRECIOS''UBICACION'ETC -->
+	<header class="menu">
+        <!-- Titulo Grande -->
+		<img src="./img/icono.jpg" class="img-menu">
+        <h1 class="menu-titulo">Hotel Valladolid</h1><h3 class="menu-eslogan">  Tu descanso, Nuestro Objetivo.</h3>
+        <br>
+        <!-- Las etiquetas -->
+        <a data-sroll href="#sec-1" class="menu-sub1">Reservaciones<img src="img/etiqueta2.png"></a>
+        <a data-sroll href="#sec-2" class="menu-sub2">Contactos<img src="img/llamada2.png"></a>
+        <a data-sroll href="#sec-3" class="menu-sub3">Ubicación<img src="img/marcador2.png"></a>  
+        <a data-sroll href="#sec-4" class="menu-sub4">Precios<img src="img/carro2.png"></a>
+    </header>
+    <div class="cuerpo">
+        <!-- Esto es donde se agrupa la info -->
+    	<h1>Información Principal</h1>
+    	<p>Somos un hotel de 3 estellas y contamos con las siguientes caracteristicas:</p>
+    	<ul>
+    		<li>Agua Caliente</li>
+    		<li>Internet</li>
+    		<li>Televisión</li>
+    	</ul>
+        <p>Nuestras Instalaciónes cuentan con un diseño exterior bastante agradable</p>
+        <!-- LAS FOTITOS -->
+        <div class="img-ver">
+        <img src="img/icono.jpg" class="img-vf">
+        <img src="img/portada.jpg" class="img-vf">
+        <a href="Imagenes.html" class="vs" class="sub">Ver más fotos <img src="img/camara.png"></a>
+        </div>
+        <br>
+        <!-- ESTAS SON LAS REGLAS DEL HOTEL -->
+        <p>Nuestras Intalaciones también cuentan con reglas como:</p>
+        <ul>
+        	<li>La habitación se vence a las 12:00 pm.</li>
+        	<li>Si se pierden objetos que no estén notificados en recepción, el hotel no se hace responsable
+        	por el objeto.</li>
+        	<li>De preferencia la llave de la habitación se debe entregar en recepción cuando salga de 
+        	nuestras instalaciones</li>
+        </ul>
+        <p></p>
+        <p>Si tienes algunas dudas no dudes en <a data-sroll href="#sec-2" class="cont" class="sub">contactarnos!</a></p>
+        <br>
+        <hr>
+        <!-- PORQUE TE PODEMOS RETIRAR? -->
+        <h2>Razones por las cuales te podemos <font color="#e74c3c">retirar</font> de nuestras instalaciones</h2>
+        <p>En esta seccion te vamos a mencionar algunas razones por las cuales le podemos retirar de su alojamiento</p>
+        <ul>
+        	<li>Mal uso de la habitación</li>
+        	<li>Ser encontrado robando</li>
+        	<li>Ser encontrado rayando/manchando/destruyendo nuestras instalaciones</li>
+        	<li>Mal comportamiento hacia el personal (Regaños,Insultos,etc.)</li>
+        </ul>
+        <p>Entre Otras.</p>
+        <br>
+        <p>De nuestra parte te ofrecemos la <font color="#e74c3c">mejor</font> estancia posible, el mejor servicio por parte del personal, y te deseamos que disfrutes el turismo de la forma más economica porsible!</p>
+        <hr>
+        <div>
+            <div class="seccion1">
+                 <!-- INICIAN LAS SECCIONES DEL MENU -->
+    	    <h2 id="sec-1">Reservaciones</h2>
+    	    <p>Las reservaciones que le podemos ofrecer son:</p>
+    	    <ul>
+    		   <li>Cama individual</li>
+    		   <li>Cama matrimonial planta alta</li>
+    		   <li>Cama matrimonial planta baja</li>
+    		   <li>Cama individual y matrimonial</li>
+    		   <li>2 Camas matrimoniales</li>
+    		   <li>Sofá Cama</li>
+    	    </ul>
+    	    <p>Más información?, contactáctanos!</p>
+           </div>
+    	<hr>
+    	<div class="seccion2">
+         <h2 id="sec-2">Contactos</h2>
+        <ul>
+            <li>953 530 0019</li>
+        </ul>
+        <p>El único disponible</p>
+        <hr>   
+        </div>
+    	<div class="seccion3">
+         <h2 id="sec-3">Ubicación</h2>
+        <ul>
+            <li>Jiménez 69000 Huajuapan De León, Oaxaca, Mexico</li>
+        </ul>
+        <p>En descripción de la instalación:</p>
+        <ul>
+            <li>Un letrero con el texto: "Hotel"</li>
+            <li>Color exterior: rojo-rosado</li>
+            <li>Herreria negra</li>
+        </ul>
+        <hr>   
+        </div>
+    	<div class="seccion4">
+         <h2 id="sec-4">Precios</h2>
+        <ul>
+            <li>Cama individual $180</li>
+            <li>Cama matrimonial planta alta $230</li>
+            <li>Cama matrimonial planta baja $260</li>
+            <li>Cama individual y matrimonial $300</li>
+            <li>2 Camas matrimoniales $380</li>
+            <li>Sofá Cama $50</li>
+        </ul>
+        <p>La Diferencia de precios de matrimonial planta alta y baja es por la diferencia de tamaños: la planta 
+        alta tiene menos espacio, mientras que la baja tiene un espacio mayor.</p>
+        <p>Precios más impuestos.</p>
+        <hr>   
+        </div>
+    </div>
+    <div>
+        <!-- IR A COMENTARIOS  -->
+        <h2>Quieres decirnos algo?, hazlo!</h2>
+    </div>
+    <!-- COMENTARIOS DEL USUARIO -->
+    <div class="Comentarios">
+        <label>Escribe tu nombre:</label>
+        <input type="text" placeholder="Nombre Completo"  id="miForm">
+        <label>Escribe tu correo electronco:</label>
+        <input type="email" placeholder="Correo Electronico"  id="miForm" required id="correo">
+        <label>Escribe tu comentario:</label>
+        <textarea name="tucomentario" id="coment" cols="30" rows="10" placeholder="Escribe tu comentario :)"  id="miForm"></textarea>
+        <button class="coment-en" onclick="comen()">Enviar</button>
+        <h2 id="Gracias" class="agradecimiento"></h2>
+    </div>
+        <!-- FIN DE LOS COMENTARIOS  -->
+    </div>
+    <!-- FIN DEL CUERPO -->
+
+        <!-- FINAL DE LA PAGINA -->
+    <footer>
+    <div class="redes-sociales">
+    	<h2>Siguenos En Nuestra Pagina de Facebook! <i class="fab fa-facebook-square"></i></h2>
+    	<button onclick="irface()" class="but">Ir a Facebook</button>
+        <p></p>
+        <h6>Servicios Ofrecidos por el Hotel Valladolid</h6>
+        <hr>
+        <h6>Desarrollador Web:<a href="Precentacion.html" class="yo">José Antonio Mtz. P.</a></h6>
+        <h6><font color="#e84118">Versión de Prueba</font></h6>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+     intefrity="sha384-3ceskX3iaEnIogmQchP8opvBy3mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossigin="anonymous"></script>
+    </footer>
+</body>
+</html>

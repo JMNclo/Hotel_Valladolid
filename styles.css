@@ -1,0 +1,242 @@
+/*INDEX*/
+.menu {
+	background: #95a5a6;
+	width: auto;
+	border-radius: 10px;
+	font-family: sans-serif;
+}
+
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
+/*TITULO DEL MENU*/
+.menu-titulo {
+
+	display: inline-block;
+	text-align: center;
+	padding-left: 15px;
+	
+	font-size: 45px;
+}
+/*IMAGEN DEL MENU*/
+.img-menu {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	border-radius: 20px;
+}
+
+/* SUB SECCIONES */
+.menu-sub1 {
+	display: inline-flex;
+	padding-left: 150px;
+	font-size: 25px;
+	text-decoration: none;
+	color:black;
+}
+
+.menu-sub2 {
+	display: inline-flex;
+	padding-left: 150px;
+	font-size: 25px;
+	text-decoration: none;
+	color:black;
+}
+
+.menu-sub3 {
+	display: inline-flex;
+	padding-left: 150px;
+	font-size: 25px;
+	text-decoration: none;
+	color:black;
+}
+
+.menu-sub4 {
+	display: inline-flex;
+	padding-left: 150px;
+	font-size: 25px;
+	text-decoration: none;
+	color:black;
+}
+
+.menu-sub1:hover, .menu-sub2:hover, .menu-sub3:hover, .menu-sub4:hover {
+	text-decoration: underline;
+}
+/*FIN SUBSECCIONES*/
+body {
+	color: #1e272e;
+	font-family: 'Oswald', sans-serif;
+	background: #DFDFDF;
+}
+/*EL CUERPO (UBICACION INFO )*/
+.cuerpo {
+	padding-left: 15px;
+	background: #F9F9F9;
+	border-radius: 15px;
+}
+
+.vs {
+	color: #1B9CFC;
+	text-decoration: none;
+}
+
+/*TODO EL CUERPO ESTA AQUI */
+.redes-sociales {
+	text-align: center;
+	color: #ecf0f1;
+	border-radius: 15px;
+	background: #34495e;
+}
+
+ /*PARA IR LA FACE :V*/
+.face {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.but {
+	font-family: 'Poppins', sans-serif;
+	display: inline;
+	border-radius: 15px;
+	padding: 10px;
+	text-align:center;
+	background: #f53b57;
+	border: 1px solid #ef5777;
+}
+
+.but:hover {
+	cursor: pointer;
+	background: #ef5777;
+}
+
+.cont {
+	color: #1B9CFC;
+	text-decoration: none;
+}
+/*FIN CUERPO*/
+/*DESPEDIDA HTML*/
+.deska {
+	padding-top: 25%;
+	text-align:center;
+}
+
+.inline {
+	padding-right: 25%;
+	display: inline-flex;
+}
+
+
+/*FIN DESPEDIDA HTML*/
+
+/*SECCIONES DE DIVISION (RECERVACIONES,CONTACTOS,ETC)*/
+.seccion1 {
+	padding-left: 15px;
+	background: #C4E538;
+	border-radius: 15px;
+}
+
+.seccion2 {
+	padding-left: 15px;
+	background: #A3CB38;
+	border-radius: 15px;
+}
+
+.seccion3 {
+	background: #16a085;
+	padding-left: 15px;
+	border-radius: 15px;
+}
+
+.seccion4 {
+	background: #1abc9c;
+	padding-left: 15px;
+	border-radius: 15px;
+}
+
+ /*FIN DE SECCIONES */
+
+ /*AGREGANDO UNA RALLITA XD :v*/
+ .sub:hover {
+ 	border-bottom: 1px solid #1B9CFC;
+ }
+ /*POSICIONANDO IMAGENES*/
+  /*PARTE DE LAS IMAGENES DE EL EXTERIOR (PROXIMAMENTE CUARTOS)*/
+
+ .img-vf {
+ 	padding-left: 15px;
+ 	padding: 5px;
+ 	height: 250px;
+ 	width: 250px;
+ }
+
+ .img-ver {
+ 	border: #636e72 2px dashed;
+ }
+
+ /*ESLOGAN :V*/
+
+ .menu-eslogan {
+ 	display: inline;
+ }
+
+/*COMENTARIOS*/
+
+ .comentarios {
+ 	width: 25%;
+ 	margin: 20px;
+ 	padding: 10px;
+ 	background: #F9F9F9;
+ 	border-radius: 15px;
+ 	border-right: 1px solid black;
+ }
+
+label {
+	display: block;
+}
+textarea{
+	resize: horizontal;
+	max-height: 90px;
+	min-height: 90px;
+	max-width: 80%;
+	min-width: 150px;
+}
+
+input, textarea {
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #b2bec3;
+}
+
+input:hover, textarea:hover {
+	border: 1px solid #636e72;
+}
+
+.coment-en {
+	margin-bottom: 20px;
+	width: 15%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #b2bec3;
+	background: #1668C4;
+    border-radius: 15px;
+}
+
+.agradecimiento {
+	color: #130f40;
+	box-sizing: content-box;
+}
+/*FIN DE COMENTARIOS */
+
+/*PRUEBAS DE H1*/
+h2 {
+	font-size: 30px;
+}
+
+/*YO*/
+.yo {
+	color: #2ed573;
+}
